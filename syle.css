@@ -1,0 +1,21 @@
+.cont-nav{
+   background: grey; 
+   border: 5px solid wheat;
+}
+.imglog{
+    width: 35%;
+}
+
+#nombtienda{
+    text-transform: uppercase;
+}
+.content-autos{
+    border: solid 5px black;
+    display: flex;
+    
+}
+.autos-txt-h1{
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+}

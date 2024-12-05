@@ -11,24 +11,31 @@
 </head>
 
 <body>
-  <nav class="navbar bg-body-tertiary" style="margin-left:1%; margin-right:1%;">
+  <nav class="navbar bg-body-tertiary">
     <div class="cont-nav">
-        <img src="imagen/logo.png" alt="Logo" width="auto" height="auto" class="d-inline-block align-text-top imglog">
-      <div>
-        <h1 id="nombtienda"></h1> 
+      <!-- Logo -->
+      <img src="imagen/logo.png" alt="Logo" class="imglog">
+  
+      <!-- Nombre de la tienda -->
+       <div class="text-content">
+        <h1 id="nombtienda">Nombre User</h1>
+       </div>
+      
+  
+      <!-- Botón toggle para pantallas pequeñas -->
+      <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Menú de navegación -->
+      <div class="nav-bttn collapse navbar-collapse" id="navbarNav">
+        <button id="catalogo" class="btn btn-primary">Catálogo</button>
+        <button id="contactanos" class="btn btn-primary">Contáctanos</button>
+        <button id="buscar" class="btn btn-primary">Buscar</button>
       </div>
-      
-      <div class="nav-bttn">
-        <button id="catalogo"></button>
-        <button id="contactanos"></button>
-        <button id="buscar"></button>
-        
-      </div>      
-      
-     <!-- <button id="main-button" class="hidden">Mostrar Opciones</button> -->
-      
     </div>
   </nav>
+  
   <!--AUTO TITULO E IMAGEN-->
   <section>
     <div class="content-autos" style="margin-left:1%; margin-right:1%;">

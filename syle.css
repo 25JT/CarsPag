@@ -1,4 +1,10 @@
-
+.text-content{
+    width: 150%;
+    display: flex;
+    justify-content: flex-end;    
+    text-transform: uppercase;
+    margin: 0; 
+}
 
 .cont-nav {
     background: grey;
@@ -6,18 +12,55 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-items: center;
     justify-content: space-between;
-    }
+    padding: 0 1%; /* Espaciado interno */
+    align-items: center;
+}
 
 .imglog {
     margin: 1%;
     width: 6%;
 }
 
+/* Alineación del botón en pantallas pequeñas */
+.navbar-toggler {
+    margin-left: auto;
+}
 
-#nombtienda {
-    text-transform: uppercase;
+/* Oculta los botones grandes en pantallas pequeñas */
+.nav-bttn {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+/* Mostrar botones directamente en pantallas grandes */
+@media (min-width: 900px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-bttn {
+        display: flex !important;
+        
+    }
+
+  
+}
+
+/* Ocultar botones al colapsar en pantallas pequeñas */
+@media (max-width: 900px) {
+    .nav-bttn {
+        display: none;
+    }
+
+    .collapse.show {
+        display: flex !important;
+        flex-direction: row-reverse;
+        gap: 10px;
+        align-items: center;
+        margin: 2%  ;
+    }
 }
 
 
@@ -80,13 +123,17 @@
         height: 350px;
 
     }
+    .text-content{
+    height: 100%;
+    width: 100%;
+        justify-content:center;  
+}
 }
 
 @media (max-width: 990px) {
     .img-carousel {
         height: 200px;
         display: flex;
- 
 
     }
     .carouselx{
@@ -143,11 +190,15 @@
         
     }
     #nombtienda{
-        font-size: x-small;
+        font-size: x-large;
     }
     
 .imglog {
     margin: 1%;
     width: 20%;
 }
+.cont-nav {
+    flex-direction: column;
+    }
+
 }

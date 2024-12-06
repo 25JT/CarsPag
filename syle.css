@@ -34,34 +34,6 @@
     gap: 10px;
 }
 
-/* Mostrar botones directamente en pantallas grandes */
-@media (min-width: 900px) {
-    .navbar-toggler {
-        display: none;
-    }
-
-    .nav-bttn {
-        display: flex !important;
-        
-    }
-
-  
-}
-
-/* Ocultar botones al colapsar en pantallas pequeñas */
-@media (max-width: 900px) {
-    .nav-bttn {
-        display: none;
-    }
-
-    .collapse.show {
-        display: flex !important;
-        flex-direction: row-reverse;
-        gap: 10px;
-        align-items: center;
-        margin: 2%  ;
-    }
-}
 
 
 .content-autos {
@@ -107,9 +79,13 @@
     object-fit: contain;   
 }
 
+.btt-contact{
+    height: 100%;
+    width: 100%;
+    
+}
 
-
-
+/*Tamños de pantallas*/
 
 @media (max-width: 1400px) {
     .img-carousel {
@@ -201,4 +177,34 @@
     flex-direction: column;
     }
 
+}
+
+
+/* Mostrar botones directamente en pantallas grandes */
+@media (min-width: 900px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-bttn {
+        display: flex !important;
+        
+    }
+
+  
+}
+
+/* Ocultar botones al colapsar en pantallas pequeñas */
+@media (max-width: 900px) {
+    .nav-bttn {
+        display: none;
+    }
+
+    .collapse.show {
+        display: flex !important;
+        flex-direction: row-reverse;
+        gap: 10px;
+        align-items: center;
+        margin: 2%  ;
+    }
 }

@@ -11,17 +11,15 @@
 </head>
 
 <body>
-  <nav class="navbar bg-body-tertiary">
+  <nav class="navbar" style="margin-left:1%; margin-right:1%;">
     <div class="cont-nav">
       <!-- Logo -->
       <img src="imagen/logo.png" alt="Logo" class="imglog">
 
       <!-- Nombre de la tienda -->
       <div class="text-content">
-        <h1 id="nombtienda">Nombre User</h1>
+        <h1 id="nombtienda"></h1>
       </div>
-
-
       <!-- Botón toggle para pantallas pequeñas -->
       <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,18 +28,18 @@
 
       <!-- Menú de navegación -->
       <div class="nav-bttn collapse navbar-collapse" id="navbarNav">
-        <button id="catalogo" class="btn btn-primary">Catálogo</button>
-        <button id="contactanos" class="btn btn-primary">Contáctanos</button>
-        <button id="buscar" class="btn btn-primary">Buscar</button>
+        <button id="catalogo" class="btn-nav ">Catálogo</button>
+        <button id="contactanos" class="btn-nav">Contáctanos</button>
+        <button id="buscar" class="btn-nav">Buscar</button>
       </div>
     </div>
   </nav>
 
   <!--AUTO TITULO E IMAGEN-->
-  <section>
+  <section class="m-1">
     <div class="content-autos" style="margin-left:1%; margin-right:1%;">
       <div class="text-autos">
-        <h1 class="autos-txt-h1">auto titulo</h1>
+        <h1 class="autos-txt-h1" id="ttAutos">auto titulo</h1>
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti voluptas placeat quia nam
           consectetur, accusamus suscipit exercitationem molestiae nemo atque eligendi optio animi sapiente ex
@@ -77,10 +75,11 @@
     </div>
   </section>
   <!--AUTO TITULO E IMAGEN FINAL-->
+  <br class="p-5">
   <!--Muesta de autos-->
   <section>
-    <div class="p-2 titBorder" data-aos="zoom-in-up">
-      <h2 class="fw-bold h2 p-2 text-center " id="productos">NUESTROS AUTOS</h2>
+    <div class="p-2 titBorder" data-aos="zoom-in-up" style="margin-left:1%; margin-right:1%;">
+      <h2 class="fw-bold h2 p-2 text-center " id="productos_Autos" >NUESTROS AUTOS</h2>
     </div>
 
     <div class="container mt-5" data-aos="fade-down">
@@ -88,20 +87,21 @@
         <!-- Las tarjetas de productos se generarán aquí -->
       </div>
       <div>
-        <a href="Productos.html">
-          <h5 class="fw-bold h5  text-center" id="productos"> Mas Productos</h5>
+        <a href="#" style="text-decoration: none; color: inherit;">
+          <h5 class="fw-bold h5 text-center" id="productosMore"> Mas Productos</h5>
         </a>
       </div>
       <br>
     </div>
   </section>
   <!--Muesta de autos final-->
+  <br>
   <!--servicios-->
   <section>
     <div class="p-2 titBorder" data-aos="zoom-in-up">
-      <h2 class="fw-bold h2 p-2 text-center " id="productos">SERVICIO</h2>
+      <h2 class="fw-bold h2 p-2 text-center " id="productos_Servicios">SERVICIOS</h2>
     </div>
-
+<br>
     <div class="content-autos" style="margin-left:1%; margin-right:1%;">
       <div class="text-autos">
         <h1 class="autos-txt-h1">auto titulo</h1>
@@ -140,33 +140,35 @@
     </div>
   </section>
   <!--servicios final-->
+  <br>
   <!--Contactos-->
   <section>
     <div class="p-2 titBorder" data-aos="zoom-in-up">
-      <h2 class="fw-bold h2 p-2 text-center " id="productos">Contactanos</h2>
+      <h2 class="fw-bold h2 p-2 text-center " id="Contactanos">CONTACTANOS</h2>
     </div>
-    <div class="contactos">
-      <div class="container  gap-5 text-center">
+    <br>
+    <div class="">
+      <div class="container gap-5 text-center ">
         <div class="row">
           <div class="col">
-            <button class="btt-contact">
+            <button class="btt-contact ">
               <h2>whatsapp</h2>
               <div>
                 <img src="imagen/Contacos/wpp_logo.webp" alt="Logo WPP" class="imglog">
-              </div>  
+              </div>
             </button>
           </div>
           <div class="col">
             <button class="btt-contact">
               <h2>colum 2</h2>
-              
+
             </button>
           </div>
           <div class="col">
-            
+
             <button class="btt-contact">
               <h2>colum 3</h2>
-              
+
             </button>
           </div>
         </div>
@@ -186,8 +188,8 @@
   </section>
   <!--MAPA LOCALIZACION finaliza-->
   <!--inicio Footer-->
-  <footer>
-    <div style="border: 5px solid black;  margin-left:1%; margin-right:1%;">
+  <footer class="footer" style="margin-left:1%; margin-right:1%;" >
+    <div >
       <div class="container-fluid p-4 text-center">
         <div class="row">
           <div class="col">
@@ -198,10 +200,10 @@
                 libero impedit quam facere quae id, nisi beatae commodi aliquid molestiae a et culpa quidem, hic
                 provident!</p>
             </div>
-           
+
           </div>
           <div class="col">
-            
+
             <img src="imagen/logo.png" alt="Logo" class="logoFooter" style="height: 90%;">
           </div>
           <div class="col">

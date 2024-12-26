@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AutoVenta</title>
   <link rel="stylesheet" href="syle.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav class="navbar" style="margin-left:1%; margin-right:1%;">
+  <nav class="navbar" style="margin-left:1%; margin-right:1%;" data-aos="fade-up">
     <div class="cont-nav">
       <!-- Logo -->
       <img src="imagen/logo.png" alt="Logo" class="imglog">
 
       <!-- Nombre de la tienda -->
       <div class="text-content">
-        <h1 id="nombtienda"></h1>
+        <h1 id="nombtienda" class="caja"></h1>
       </div>
       <!-- Botón toggle para pantallas pequeñas -->
       <button class="navbar-toggler m-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,7 +37,7 @@
   </nav>
 
   <!--AUTO TITULO E IMAGEN-->
-  <section class="m-1">
+  <section class="m-1"  data-aos="fade-up">
     <div class="content-autos" style="margin-left:1%; margin-right:1%;">
       <div class="text-autos">
         <h1 class="autos-txt-h1" id="ttAutos">auto titulo</h1>
@@ -77,13 +78,13 @@
   <!--AUTO TITULO E IMAGEN FINAL-->
   <br class="p-5">
   <!--Muesta de autos-->
-  <section>
-    <div class="p-2 titBorder" data-aos="zoom-in-up" style="margin-left:1%; margin-right:1%; border-radius:9px;">
+  <section  data-aos="fade-up">
+    <div class="p-2 titBorder"  style="margin-left:1%; margin-right:1%; border-radius:9px;">
       <h2 class="fw-bold h2 p-2 text-center " id="productos_Autos" >NUESTROS AUTOS</h2>
     </div>
 
-    <div class="container mt-5" data-aos="fade-down">
-      <div id="product-container" class="row">
+    <div class="container mt-5">
+      <div id="product-container" class="row container">
         <!-- Las tarjetas de productos se generarán aquí -->
       </div>
       <div>
@@ -97,8 +98,8 @@
   <!--Muesta de autos final-->
   <br>
   <!--servicios-->
-  <section>
-    <div class="p-2 titBorder" data-aos="zoom-in-up" style="margin-left:1%; margin-right:1%; border-radius:9px;">
+  <section  data-aos="fade-up">
+    <div class="p-2 titBorder"  style="margin-left:1%; margin-right:1%; border-radius:9px;">
       <h2 class="fw-bold h2 p-2 text-center " id="productos_Servicios">SERVICIOS</h2>
     </div>
 <br>
@@ -142,8 +143,8 @@
   <!--servicios final-->
   <br>
   <!--Contactos-->
-  <section>
-    <div class="p-2 titBorder" data-aos="zoom-in-up" style="margin-left:1%; margin-right:1%; border-radius:9px;">
+  <section  data-aos="fade-up">
+    <div class="p-2 titBorder"  style="margin-left:1%; margin-right:1%; border-radius:9px;">
       <h2 class="fw-bold h2 p-2 text-center " id="Contactanos">CONTACTANOS</h2>
     </div>
     <br>
@@ -182,7 +183,7 @@
   <br>
   <!--Contactos final-->
   <!--MAPA-->
-  <section>
+  <section  data-aos="fade-up">
     <div class="p-5">
       <iframe class="Mapa"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127450.10996442808!2d-76.60806502138044!3d3.395060897151642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5e952ae6168!2sCali%2C%20Valle%20del%20Cauca!5e0!3m2!1sen!2sco!4v1733506553470!5m2!1sen!2sco"
@@ -192,7 +193,7 @@
   </section>
   <!--MAPA LOCALIZACION finaliza-->
   <!--inicio Footer-->
-  <footer class="footer" style="margin-left:1%; margin-right:1%;" >
+  <footer class="footer" style="margin-left:1%; margin-right:1%;"  data-aos="fade-up" >
     <div >
       <div class="container-fluid text-center">
         <div class="row">
@@ -226,10 +227,13 @@
     </div>
   </footer>
 
-  <script src="scripts/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>

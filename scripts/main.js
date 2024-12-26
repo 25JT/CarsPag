@@ -1,4 +1,3 @@
-document.getElementById("nombtienda").innerHTML = "nombre user"
 document.getElementById("catalogo").innerHTML = "catalogo"
 document.getElementById("contactanos").innerHTML = "contactanos"
 document.getElementById("buscar").innerHTML = "buscar"
@@ -8,12 +7,15 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
 
   document.addEventListener("DOMContentLoaded", function () {
     const products = [
-      { title: "Borradores", price: "$400", imgSrc: "/imagen/carro_modelo.webp", link: "" },
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/carro_modelo.webp", link: "" },
-      { title: "Marcadores", price: "$2.500", imgSrc: "/imagen/carro_modelo.webp", link: "" },
-      { title: "Fomi 1/8 paquete diversos colores", price: "$600", imgSrc: "/imagen/carro_modelo.webp", link: "" },
-      { title: "Lapiceros en azul negro y rojo", price: "$1.200", imgSrc: "/imagen/carro_modelo.webp", link: "" },
-      { title: "Ega en barra", price: "$2.400", imgSrc: "/imagen/carro_modelo.webp", link: "" }
+      { title: "Borradores", price: "$400", imgSrc: "/imagen/autos prueba/auto1.webp", link: "" },
+      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
+      { title: "Marcadores", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
+      { title: "Ega en barra", price: "$2.400", imgSrc: "/imagen/autos prueba/auto6.webp", link: ""},
+      { title: "Lapiceros en azul negro y rojo", price: "$1.200", imgSrc: "/imagen/autos prueba/auto4.webp", link: ""},
+      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
+      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
+      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto5.webp", link: "" },
+      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto6.webp", link: "" },
     ];
   
     const container = document.getElementById("product-container");
@@ -31,7 +33,7 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
       
   
       const img = document.createElement("img");
-      img.className = "card-img-top ";
+      img.className = "card-img-top";
       img.src = product.imgSrc;
       img.alt = product.title;
   
@@ -55,4 +57,12 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
       colDiv.appendChild(cardDiv);
       container.appendChild(colDiv);
     });
+  });
+
+  AOS.init();
+
+  var typed = new Typed('#nombtienda', {
+    strings: ['<i>SHOP NAME</i>', 'WELCOME'],
+    typeSpeed: 90,
+    loop: true
   });

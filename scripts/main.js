@@ -1,21 +1,20 @@
 document.getElementById("catalogo").innerHTML = "catalogo"
 document.getElementById("contactanos").innerHTML = "contactanos"
 document.getElementById("buscar").innerHTML = "buscar"
-document.getElementById("nombtienda").innerHTML = "SHOP NAME"
 document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
 
 
   document.addEventListener("DOMContentLoaded", function () {
     const products = [
-      { title: "Borradores", price: "$400", imgSrc: "/imagen/autos prueba/auto1.webp", link: "" },
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
-      { title: "Marcadores", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
-      { title: "Ega en barra", price: "$2.400", imgSrc: "/imagen/autos prueba/auto6.webp", link: ""},
-      { title: "Lapiceros en azul negro y rojo", price: "$1.200", imgSrc: "/imagen/autos prueba/auto4.webp", link: ""},
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto5.webp", link: "" },
-      { title: "Cuaderno", price: "$4.200", imgSrc: "/imagen/autos prueba/auto6.webp", link: "" },
+      { title: "Porsche", price: "$6.000", imgSrc: "/imagen/autos prueba/auto1.webp", link: "" },
+      { title: "Toyota corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
+      { title: "Kia K3", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
+      { title: "Supra", price: "$2.400", imgSrc: "/imagen/autos prueba/auto6.webp", link: ""},
+      { title: "Nissan centra", price: "$1.200", imgSrc: "/imagen/autos prueba/auto4.webp", link: ""},
+      { title: "Toyota corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "" },
+      { title: "Kia K3", price: "$4.200", imgSrc: "/imagen/autos prueba/auto3.webp", link: "" },
+      { title: "Renoul Sandero", price: "$4.200", imgSrc: "/imagen/autos prueba/auto5.webp", link: "" },
+      { title: "Supra", price: "$4.200", imgSrc: "/imagen/autos prueba/auto6.webp", link: "" },
     ];
   
     const container = document.getElementById("product-container");

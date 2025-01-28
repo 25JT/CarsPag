@@ -317,7 +317,7 @@ border: white 2px groove;
 
 .Mapa{
     border: #ffffff solid 5px;
-    -webkit-box-shadow: -17px 6px 20px 3px rgba(255, 255, 255, 0.32);
+    -webkit-box-shadow: -17px 6px 20px 3px #ffffff52;
     -moz-box-shadow: -17px 6px 20px 3px rgba(0,185,191,0.32);
     box-shadow: -17px 6px 20px 3px rgba(255, 255, 255, 0.32);
     border-radius: 20px;
@@ -333,7 +333,7 @@ border: white 2px groove;
   padding: 0 1%;
   /* Espaciado interno */
   align-items: center;
-  -webkit-box-shadow: -50px 7px 64px -28px rgba(0, 173, 181, 1);
+  -webkit-box-shadow: -50px 7px 64px -28px #00adb5;
   -moz-box-shadow: -50px 7px 64px -28px rgba(0, 173, 181, 1);
   box-shadow: -50px 7px 64px -28px rgba(0, 173, 181, 1);
 }
@@ -371,7 +371,39 @@ border: white 2px groove;
     padding: 15px;
   }
   
+  /* BOTON INFO*/ 
+.butoninfo {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #000000;
+  transition: 0.2s ease;
+  user-select: none;
+}
 
+.butoninfo:hover,
+:focus {
+  color: #ffffff;
+  background: #00adb5;
+  border: 1px solid #00adb5;
+  text-shadow: 0 0 0px #ffffff, 0 0 5px #ffffff, 0 0 5px #ffffff;
+  box-shadow: 0 0 5px #00adb5, 0 0 10px #00adb5, 0 0 10px #00adb5,
+    0 0 50px #00adb5;
+}
+/* BOTON INFO final*/ 
+
+.imgDetalle {
+  border: #e5e7eb solid 2px;
+  border-radius: 2%;
+
+}
 
 
 /*Tamños de pantallas*/

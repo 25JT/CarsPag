@@ -288,8 +288,16 @@ border: white 2px groove;
 
 .titBorder{
     color: white;
-    border: solid 1px white;
-    
+    width: 100%;
+    border: solid 2px #222831;
+    box-shadow: 0 0 5px #00adb5, 0 0 10px #00adb5, 0 0 10px #00adb5,
+0 0 10px #00adb5;
+
+}
+.botonCatal{
+  display: flex;
+  flex-direction: column;
+
 }
 .tarjeta{
     -webkit-box-shadow: -14px 1px 36px -10px rgba(79,156,179,0.42);
@@ -404,7 +412,30 @@ border: white 2px groove;
   border-radius: 2%;
 
 }
+.table-info{
+  width: auto;
+  height: auto;
+  display: flex;
+  
+  justify-content: center;
+}
+.tableifn{
+background: 393E46;
+width: auto;
+display: flex;
+justify-content: center;
+color: white;
 
+box-shadow: 0 0 5px #00adb5, 0 0 10px #00adb5, 0 0 10px #00adb5,
+0 0 20px #00adb5;
+}
+.tableifn tbody{
+  margin: 2%;
+}
+.tableifn th{
+  text-transform: capitalize;
+
+}
 
 /*Tamños de pantallas*/
 @media (max-width: 1400px) {

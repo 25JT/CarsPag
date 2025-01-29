@@ -63,5 +63,6 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
   var typed = new Typed('#nombtienda', {
     strings: ['<i>SHOP NAME</i>', 'WELCOME'],
     typeSpeed: 90,
-    loop: true
+    loop: true,
+    showCursor: false
   });

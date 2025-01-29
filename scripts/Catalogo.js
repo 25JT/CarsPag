@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Toyota Corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", info: "Más detalles sobre el Toyota Corola..." },
         { title: "Kia K3", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", info: "El Kia K3 Cross es un vehículo que fusiona el diseño deportivo con la funcionalidad moderna, ofreciendo una experiencia de conducción dinámica y segura",
             tecnico: `
-            Dimensiones y Capacidades:
+            Dimensiones y Capacidades
             - Longitud: 4,355 mm
             - Ancho: 1,825 mm
             - Altura: 1,530 mm
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
             cardText.innerText = product.price;
 
             const infoLink = document.createElement("a");
-            infoLink.href = `detalle.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&imgSrc=${encodeURIComponent(product.imgSrc)}&info=${encodeURIComponent(product.info)}`;
+            infoLink.href = `detalle.html?title=${encodeURIComponent(product.title)}&price=${encodeURIComponent(product.price)}&imgSrc=${encodeURIComponent(product.imgSrc)}&info=${encodeURIComponent(product.info)}&tecnico=${encodeURIComponent(product.tecnico)}`;
             infoLink.target = "_blank";
             infoLink.className = "butoninfo mt-2";
             infoLink.innerText = "Más información";
@@ -120,5 +120,6 @@ AOS.init();
 var typed = new Typed('#nombtienda', {
   strings: ['<i>SHOP NAME</i>', 'WELCOME'],
   typeSpeed: 90,
-  loop: true
+  loop: true,
+  showCursor: false
 });

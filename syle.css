@@ -407,6 +407,8 @@ border: white 2px groove;
 }
 /* BOTON INFO final*/ 
 
+/*CSS Detalles*/
+/*NAV*/
 .imgDetalle {
   border: #e5e7eb solid 2px;
   border-radius: 2%;
@@ -436,6 +438,76 @@ box-shadow: 0 0 5px #00adb5, 0 0 10px #00adb5, 0 0 10px #00adb5,
   text-transform: capitalize;
 
 }
+/*BotonDetalles*/
+  /* From Uiverse.io by adamgiebl */ 
+  .btn-detalles {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #00adb5;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #00adb5;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.btn-detalles:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #393E46;
+  z-index: -1;
+
+}
+
+.btn-detalles:hover, .btn-detalles:focus {
+  color: white;
+  border: #393E46 solid 1px;
+}
+
+.btn-detalles:hover:before, .btn-detalles:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.btn-detalles:active {
+  transform: scale(0.9);
+}
+.LetraDetalle{
+  color: white;
+  
+}
+.LetraDetalle h3{
+  
+  border: white solid 2px;
+  text-transform: uppercase;
+  
+  box-shadow: 0 0 5px #fdffff, 0 0 5px #00adb5, 0 0 5px #00adb5,
+    0 0 10px #fdffff;
+}
+.LetraDetalle h4{
+  
+  
+  font-size: xx-large;
+}
+.LetraDetalle p{
+  text-align: center;
+}
+
 
 /*Tamños de pantallas*/
 @media (max-width: 1400px) {

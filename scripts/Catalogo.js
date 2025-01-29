@@ -1,8 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const products = [
-        { title: "Porsche", price: "$6.000", imgSrc: "/imagen/autos prueba/auto1.webp", info: "Más detalles sobre el Porsche...", },
-        { title: "Toyota Corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", info: "Más detalles sobre el Toyota Corola..." },
-        { title: "Kia K3", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", info: "El Kia K3 Cross es un vehículo que fusiona el diseño deportivo con la funcionalidad moderna, ofreciendo una experiencia de conducción dinámica y segura",
+        { title: "Porsche", price: "$6.000.000", imgSrc: "/imagen/autos prueba/auto1.webp", info: "Más detalles sobre el Porsche...", },
+        { title: "Toyota Corola", price: "$4.200.000", imgSrc: "/imagen/autos prueba/auto2.webp", info: "Más detalles sobre el Toyota Corola..." },
+                
+        { title: "Kia K3", price: "$2.500.000", imgSrc: "/imagen/autos prueba/auto3.webp", info: `El Kia K3 Cross es un vehículo que fusiona el diseño deportivo con la funcionalidad moderna, ofreciendo una experiencia de conducción dinámica y segura.
+            Motor Eficiente: Equipado con un motor de 1.6 litros que genera 121 caballos de fuerza y 151 Nm de torque, acoplado a una transmisión automática de 6 velocidades, proporcionando una conducción eficiente y dinámica.
+            Sistemas Avanzados: Incorpora 6 airbags, sistema de frenos ABS con EBD, control electrónico de estabilidad y asistente de arranque en pendientes. Además, en versiones superiores, ofrece asistencias avanzadas como alerta de colisión frontal y asistente de mantenimiento de carril.`,
             tecnico: `
             Dimensiones y Capacidades
             - Longitud: 4,355 mm
@@ -49,9 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
             
             Colores Disponibles:
             - Blanco perlado, Plata metálico, Azul oscuro, Negro aurora y Rojo cereza
-            `
-            
+           `           
          },
+
+         { title: "", price: "", imgSrc: "", info: "" },
     ];
 
     products.sort((a, b) => a.title.localeCompare(b.title));

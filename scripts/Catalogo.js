@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const products = [
-        { title: "Porsche 911 (992)", price: "$6.000.000", imgSrc: "/imagen/autos prueba/auto1.webp", info: `El Porsche 911 (992) es la última evolución de un ícono del automovilismo. Con un diseño atemporal que combina elegancia y deportividad, este coupé mantiene la esencia clásica del 911 mientras incorpora tecnología de punta y un rendimiento excepcional.
+        { title: "Porsche 911 (992)", price: "$6.000.000", imgSrc: "/imagen/autos prueba/auto1.jpg", info: `El Porsche 911 (992) es la última evolución de un ícono del automovilismo. Con un diseño atemporal que combina elegancia y deportividad, este coupé mantiene la esencia clásica del 911 mientras incorpora tecnología de punta y un rendimiento excepcional.
             Desde su característico diseño con faros redondos hasta su silueta aerodinámica, el 911 sigue siendo uno de los deportivos más reconocibles del mundo. Su carrocería es más ancha que las generaciones anteriores, mejorando estabilidad y presencia en carretera. El motor bóxer trasero y la tracción trasera o total aseguran una conducción emocionante, con una respuesta precisa y una aceleración impresionante.`, 
             tecnico:`
             Dimensiones y Capacidades

@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
             Modo de manejo Sport y Sport+ con Launch Control
             `
         },
-        { title: "Toyota Corola", price: "$4.200.000", imgSrc: "/imagen/autos prueba/auto2.webp", info: `El Toyota Corolla es uno de los automóviles más icónicos y vendidos del mundo, conocido por su equilibrio entre confiabilidad, eficiencia y tecnología. A lo largo de más de 50 años y múltiples generaciones, ha evolucionado hasta convertirse en un sedán moderno, seguro y cómodo, ideal tanto para el uso diario como para viajes largos.`,
+        { title: "Toyota Corola", price: "$4.200.000", imgSrc: "/imagen/autos prueba/auto2.jpg", info: `El Toyota Corolla es uno de los automóviles más icónicos y vendidos del mundo, conocido por su equilibrio entre confiabilidad, eficiencia y tecnología. A lo largo de más de 50 años y múltiples generaciones, ha evolucionado hasta convertirse en un sedán moderno, seguro y cómodo, ideal tanto para el uso diario como para viajes largos.`,
             tecnico:`
             Dimensiones y Capacidades
             Longitud: 4,630 mm
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
             `
          },
                 
-        { title: "Kia K3", price: "$2.500.000", imgSrc: "/imagen/autos prueba/auto3.webp", info: `El Kia K3 Cross es un vehículo que fusiona el diseño deportivo con la funcionalidad moderna, ofreciendo una experiencia de conducción dinámica y segura.
+        { title: "Kia K3", price: "$2.500.000", imgSrc: "/imagen/autos prueba/auto3.jpg", info: `El Kia K3 Cross es un vehículo que fusiona el diseño deportivo con la funcionalidad moderna, ofreciendo una experiencia de conducción dinámica y segura.
             Motor Eficiente: Equipado con un motor de 1.6 litros que genera 121 caballos de fuerza y 151 Nm de torque, acoplado a una transmisión automática de 6 velocidades, proporcionando una conducción eficiente y dinámica.
             Sistemas Avanzados: Incorpora 6 airbags, sistema de frenos ABS con EBD, control electrónico de estabilidad y asistente de arranque en pendientes. Además, en versiones superiores, ofrece asistencias avanzadas como alerta de colisión frontal y asistente de mantenimiento de carril.`,
             tecnico: `

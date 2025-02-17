@@ -7,14 +7,14 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
   document.addEventListener("DOMContentLoaded", function () {
     const products = [
       { title: "Porsche 911 (992)", price: "$6.000", imgSrc: "imagen/autos prueba/auto1.jpg", link: "Catalogo.html" },
-      { title: "Toyota corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.jpg", link: "Catalogo.html" },
-      { title: "Kia K3", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.jpg", link: "Catalogo.html" },
-      { title: "Supra", price: "$2.400", imgSrc: "/imagen/autos prueba/auto6.jpg", link: "Catalogo.html"},
-      { title: "Nissan centra", price: "$1.200", imgSrc: "/imagen/autos prueba/auto4.jpg", link: "Catalogo.html"},
-      { title: "Toyota corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.jpg", link: "Catalogo.html" },
-      { title: "Kia K3", price: "$4.200", imgSrc: "/imagen/autos prueba/auto3.jpg", link: "Catalogo.html" },
-      { title: "Renoul Sandero", price: "$4.200", imgSrc: "/imagen/autos prueba/auto5.jpg", link: "Catalogo.html" },
-      { title: "Supra", price: "$4.200", imgSrc: "/imagen/autos prueba/auto6.jpg", link: "Catalogo.html" },
+      { title: "Toyota corola", price: "$4.200", imgSrc: "imagen/autos prueba/auto2.jpg", link: "Catalogo.html" },
+      { title: "Kia K3", price: "$2.500", imgSrc: "imagen/autos prueba/auto3.jpg", link: "Catalogo.html" },
+      { title: "Supra", price: "$2.400", imgSrc: "imagen/autos prueba/auto6.jpg", link: "Catalogo.html"},
+      { title: "Nissan centra", price: "$1.200", imgSrc: "imagen/autos prueba/auto4.jpg", link: "Catalogo.html"},
+      { title: "Toyota corola", price: "$4.200", imgSrc: "imagen/autos prueba/auto2.jpg", link: "Catalogo.html" },
+      { title: "Kia K3", price: "$4.200", imgSrc: "imagen/autos prueba/auto3.jpg", link: "Catalogo.html" },
+      { title: "Renoul Sandero", price: "$4.200", imgSrc: "imagen/autos prueba/auto5.jpg", link: "Catalogo.html" },
+      { title: "Supra", price: "$4.200", imgSrc: "imagen/autos prueba/auto6.jpg", link: "Catalogo.html" },
     ];
   
     const container = document.getElementById("product-container");

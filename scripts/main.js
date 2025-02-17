@@ -6,7 +6,7 @@ document.getElementById("ttAutos").innerHTML = "¿Buscas un auto?"
 
   document.addEventListener("DOMContentLoaded", function () {
     const products = [
-      { title: "Porsche 911 (992)", price: "$6.000", imgSrc: "/imagen/autos prueba/auto1.jpg", link: "Catalogo.html" },
+      { title: "Porsche 911 (992)", price: "$6.000", imgSrc: "imagen/autos prueba/auto1.jpg", link: "Catalogo.html" },
       { title: "Toyota corola", price: "$4.200", imgSrc: "/imagen/autos prueba/auto2.webp", link: "Catalogo.html" },
       { title: "Kia K3", price: "$2.500", imgSrc: "/imagen/autos prueba/auto3.webp", link: "Catalogo.html" },
       { title: "Supra", price: "$2.400", imgSrc: "/imagen/autos prueba/auto6.webp", link: "Catalogo.html"},
